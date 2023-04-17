@@ -11,7 +11,16 @@ RUN sudo apt-get -y update && sudo apt-get install -y vim \
     cmake \
     binutils \
     valgrind \
-RUN source /opt/ros/melodic/setup.bash --extend
+    python3 \
+    graphviz \
+    python3-pip \
+    linux-tools-common \
+    linux-tools-generic \
+    linux-tools-`uname -r`
+
+RUN pip3 install gprof2dot
+
+#RUN source /opt/ros/melodic/setup.bash
 
 # install gprof
 
