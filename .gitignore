@@ -3,5 +3,6 @@
 /build
 *.idea
 *.vscode
+*html*
 
 callgrind*
