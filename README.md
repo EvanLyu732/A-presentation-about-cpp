@@ -1,5 +1,9 @@
 # A presentation about cpp for ros1 programmer
 
+Slides: [Presentation](doc/Presentation.pdf)  
+Status: Not Finished Yet.
+
+<br>
 
 * Step For build
 ```shell
