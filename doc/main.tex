@@ -1,0 +1,136 @@
+\documentclass{beamer}
+\usetheme{Madrid} % Beamer theme v 3.0
+\usecolortheme{lily} % Beamer color theme
+
+\usepackage{graphicx} % Required for inserting images
+ \usepackage{xcolor} % color
+
+\title{A practical guide for effective programming in cpp}
+\author{Evan Lyu}
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+% intro page
+\begin{frame}
+\frametitle{Outline}
+ % \tableofcontents
+ Generally, we want a program to be more ...
+     \setlength\itemsep{1em}
+  \begin{itemize}
+     \setlength\itemsep{1em}
+     \item Safer (Memory Safety)
+     \item Faster (More Computation Done in period time.)
+     \item Smaller (Less Build Size)
+   \end{itemize}
+\end{frame}
+
+% section 1 - safer
+\begin{frame}
+\frametitle{Safer}
+ \begin{itemize}
+     \setlength\itemsep{1em}
+     \item Profiling
+     \item Static \& Dynamic Check
+     \item Testing
+ \end{itemize}
+\end{frame}
+
+% section 1 - slide 1 - profiling
+\begin{frame}
+\frametitle{Profiler}
+\vspace*{\fill}
+\begin{quote}
+\centering
+In \textcolor{blue} {software engineering}, profiling ("program profiling", "software profiling") is a form of \textcolor{blue}{dynamic program analysis} that \textcolor{blue}{measures}, for example, the \textcolor{blue}{space (memory) or time complexity of a program, the usage of particular instructions, or the frequency and duration of function calls.}  - Wikipedia
+\end{quote}
+\vspace*{\fill}
+\end{frame}
+
+% section 1 - slide 2 - profiling
+\begin{frame}
+\frametitle{Profiler Tools (Unix Based)}
+Some profiling tools that I will introduce.
+
+ \begin{itemize}
+     \setlength\itemsep{1em}
+     \item \href{https://www.man7.org/linux/man-pages/man1/gprof.1.html}{gprof}
+     \item \href{https://valgrind.org/}{valgrind}
+     \item \href{https://orbitprofiler.com/}{orbit}
+ \end{itemize}
+
+\begin{figure}[r]
+\centering
+\pause \includegraphics[scale=0.25, right]{demo-time.jpeg}
+\end{figure}
+
+\end{frame}
+
+
+% section 1 - slide 2 - static & dynamic check
+\begin{frame}
+\frametitle{Static \& Dynamic Check}
+\begin{itemize}
+    \setlength\itemsep{1em}
+    \item \href{https://clang-analyzer.llvm.org/}{clang-static-analyzer}
+    \item \href{http://cppcheck.net/}{cppcheck}
+    \item \href{https://releases.llvm.org/12.0.0/tools/clang/tools/extra/docs/clang-tidy/index.html}{clang-tidy}
+      \item \href{https://releases.llvm.org/12.0.0/tools/clang/tools/extra/docs/clang-tidy/index.html}{gcc sanitizers}
+
+\begin{figure}[r]
+\centering
+\includegraphics[scale=0.05, right]{working.png}
+\end{figure}
+
+\end{itemize}
+
+\end{frame}
+
+% section 1 - slide 2 - static & dynamic check
+\begin{frame}
+\frametitle{Testing}
+
+\end{frame}
+
+
+% section 2 - faster
+\begin{frame}
+\frametitle{Faster}
+
+
+\end{frame}
+
+
+% section 2 - compiler
+\begin{frame}
+\frametitle{Compiler}
+
+\end{frame}
+
+% slide 2 - memory
+\begin{frame}
+\frametitle{Memory}
+
+\end{frame}
+
+% slide 2 - cpp features
+\begin{frame}
+\frametitle{C++ Features}
+
+
+\end{frame}
+
+
+
+% last section - smaller
+\begin{frame}
+\frametitle{Smaller}
+
+
+\end{frame}
+
+
+\end{document}
+
