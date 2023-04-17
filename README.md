@@ -5,12 +5,10 @@ Status: Not Finished Yet.
 
 <br>
 
-* Step For build
+##  For Running Examples Code
 ```shell
-$ docker build -t dummy_img .
+$ docker build -t dummy_img . # build img
+$ docker run --rm -it -v $(pwd):/home/demo dummy_img # mount folder
+$ cd build && rm -rf * && cmake .. && make # build code
 ```
 
-* Mount folder
-```shell
-$ docker run --rm -it -v $(pwd):/home/demo dummy_img
-```
