@@ -27,4 +27,4 @@ Callgrind_control to dump file.
 $ callgrind_control -d
 ```
 
-For more detail information, check [link](https://cs.swan.ac.uk/~csoliver/ok-sat-library/internet_html/doc/doc/Valgrind/3.8.1/html/cl-manual.html)
+For more information, check this [link](https://cs.swan.ac.uk/~csoliver/ok-sat-library/internet_html/doc/doc/Valgrind/3.8.1/html/cl-manual.html)
